@@ -9,4 +9,3 @@ resource "azurerm_resource_group" "rgserver" {
   name     = var.rg_server
   location = var.location
 }
-*/

@@ -16,4 +16,3 @@ resource "azurerm_subnet" "snetdb" {
   virtual_network_name = azurerm_virtual_network.main.name
   address_prefixes     = [var.snet_db_cidr]
 }
-*/

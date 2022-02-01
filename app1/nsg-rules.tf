@@ -11,4 +11,3 @@ resource "azurerm_network_security_rule" "mgmtAllowSSH" {
   resource_group_name         = azurerm_resource_group.rgnetwork.name
   network_security_group_name = azurerm_network_security_group.nsgmgmt.name
 }
-*/

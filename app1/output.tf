@@ -17,4 +17,3 @@ output "snetweb" {
 output "jumpbox01_pip" {
   value = azurerm_public_ip.jumbox01_pip
 }
-*/

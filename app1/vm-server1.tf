@@ -61,4 +61,3 @@ resource "azurerm_virtual_machine" "jumpbox01" {
     disable_password_authentication = false
   }
 }
-*/
