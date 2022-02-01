@@ -1,3 +1,4 @@
+/*
 output "vnet" {
   value = azurerm_virtual_network.main
 }
@@ -17,3 +18,4 @@ output "snetweb" {
 output "jumpbox01_pip" {
   value = azurerm_public_ip.jumbox01_pip
 }
+*/
