@@ -1,4 +1,3 @@
-/*
 resource "azurerm_network_security_rule" "mgmtAllowSSH" {
   name                        = "allowSSH"
   priority                    = 110

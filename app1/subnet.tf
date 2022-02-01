@@ -1,4 +1,3 @@
-/*
 resource "azurerm_subnet" "snetweb" {
   name                 = var.snet_web_name
   resource_group_name  = azurerm_resource_group.rgnetwork.name
