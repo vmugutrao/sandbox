@@ -19,13 +19,17 @@ jobs:
         uses: hashicorp/setup-terraform@v1
 
       - name: Terraform Init
+        working-directory: ./app1
         run: terraform init
 
       - name: Terraform Format
+        working-directory: ./app1
         run: terraform fmt -recursive    
       
       - name: Terraform Plan
+        working-directory: ./app1
         run: terraform plan
       
       - name: Terraform Apply
+        working-directory: ./app1
         run: terraform apply --auto-approve
